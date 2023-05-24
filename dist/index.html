@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alex ALCESdev">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Python, ASP NET, Core, C#, LINQ, MVC">
+    <!-- Favicon -->
+    <link rel="icon" type="images/x" href="img/code-square.svg">
+    <!-- Titulo -->
+    <title>ALCESdev | Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../src/main.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/d5b349e973.js" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Navbar -->  
+    <nav class="navbar fixed-top navbar-expand-md navbar-light" id="nav_glass">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbar-toggler">
+            <div class="navLogo d-flex justify-content-start align-items-end">
+              <a class="navbar-brand" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-code-square navLogoImg" viewBox="0 0 16 16">
+                  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                  <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+                </svg>
+              </a>
+              <h2 class="navLogoText"><span class="colorGrad">ALCESdev</span></h2>
+            </div>
+            <div class="navLinks ml-auto">
+              <ul class="navbar-nav d-flex justify-content-end align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#top">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#techs">Tecnologías</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+    <section id="hero">
+        <div class="container col-xxl-8 hero">
+            <div class="row flex-lg-row-reverse align-items-center pt-5 mt-5 g-5 heroContainer">
+                <div class="col-10 col-sm-8 col-lg-6 imgContainer">
+                    <img src="img/alcesimg.png" class="d-block img-fluid foto" alt="Imágen Alex" height="400" loading="lazy">
+                </div>
+                <div class="col-lg-6 infoContainer">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">Bienvenido a mi portfolio</h1>
+                    <p class="lead">¡Hola! Soy <span class="colorGradName">Alex Alcántara</span>, un apasionado <span class="highlights">desarrollador autodidacta</span> que decidió cambiar su rumbo profesional hacia lo que realmente le apasionaba, <span class="highlights">programar</span>.</p>
+                    <p class="lead">Explora mi portfolio para ver algunos de los proyectos en los que he trabajado de forma independiente y cómo he aplicado mis conocimientos para resolver los diferentes <span class="highlights">desafíos técnicos</span> que he ido encontrando. Si estás buscando un <span class="highlights">desarrollador .NET, Cloud, DevOps</span> junior para trabajar en tu proyecto, ¡me encantaría conocerte!</p>
+  
+                    <div class="container certContainer">
+                        <a href="https://learn.microsoft.com/es-es/certifications/azure-developer/" target="_blank"><img src="img/microsoft-certified-associate-badge.svg" class="zoomImg" alt="AZ-204" height="100"></a>
+                        <a href="https://learn.microsoft.com/es-es/certifications/devops-engineer/" target="_blank"><img src="img/microsoft-certified-expert-badge.svg" class="zoomImg" alt="AZ-400" height="100"></a>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="./scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

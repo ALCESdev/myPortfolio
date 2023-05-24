@@ -1,0 +1,171 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$prim: #151603;
+$sec: #fdfef6;
+$btn1: #1dbfcd;
+$btn2: #ffffff;
+$acc: #cd1dbf;
+$grad: linear-gradient(120deg, $btn1, $acc);
+
+/*********** Custom properties ***********/
+:root {
+    --bg-color: rgba(253, 254, 246);
+    --bg-alpha-color: rgba(253, 254, 246, 0.75);
+}
+
+/*********** Reset ***********/
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/***********  ***********/
+
+
+/*********** Navbar ***********/
+#nav_glass {
+    padding: 20px;
+}
+
+#nav_glass.scrolling-active a {
+    color:#ffffff;
+}
+
+.colorGrad {
+    background: $grad;
+    background-clip: text;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: $acc;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+.nav-link {
+    line-height: 1.5rem;
+    color: $prim;
+    transition: transform 0.5s ease;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: $acc;
+    transform: translateY(-5px);
+}
+
+/*********** Hero ***********/
+#hero {
+    padding-top: 100px;
+}
+
+.heroContainer {
+    justify-content: space-between;
+}
+
+.colorGradName {
+    background: $grad;
+    background-clip: text;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.certContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.infoContainer {
+   padding-left: 0;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content:end;
+    padding-right: 0;
+}
+
+.zoomImg {
+    transition: transform 0.3s ease;
+}
+
+.zoomImg:hover {
+    transform: scale(1.3);
+}
+
+.lead {
+    text-align: justify;
+}
+
+.highlights {
+    font-weight: bold;
+}
+
+
+/***********  ***********/
+
+// Small devices (landscape phones, 576px)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px)
+@media screen and (max-width: 767px) {
+    #hero {
+        padding-top: 0;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .colorGrad {
+        display: none;
+    }   
+
+    #hero {
+        margin-top: 170px;
+    }
+
+    .heroContainer {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .infoContainer {
+        padding-left: 30px;
+     }
+}
+
+// Large devices (desktops, 992px)
+@media screen and (max-width: 991px) {
+    #hero {
+        padding-top: 0;
+    }
+
+    .heroContainer {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .infoContainer {
+        padding-left: 30px;
+     }
+}
+
+// X-Large devices (large desktops, 1200px)
+@media (min-width: 1200px) {
+
+}
+
+// XX-Large devices (larger desktops, 1400px)
+@media (min-width: 1400px) {
+
+}
