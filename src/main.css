@@ -12030,12 +12030,10 @@ textarea.form-control-lg {
   --bg-alpha-color: rgba(253, 254, 246, 0.75);
 }
 
-/*********** Reset ***********/
 body {
   font-family: "Inter", sans-serif;
 }
 
-/***********  ***********/
 /*********** Navbar ***********/
 #nav_glass {
   padding: 20px;
