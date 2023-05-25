@@ -71,7 +71,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Inter", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -12024,21 +12024,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/*********** Custom properties ***********/
-:root {
-  --bg-color: rgba(253, 254, 246);
-  --bg-alpha-color: rgba(253, 254, 246, 0.75);
-}
-
-body {
-  font-family: "Inter", sans-serif;
-}
-
 /*********** Navbar ***********/
-#nav_glass {
-  padding: 20px;
-}
-
 #nav_glass.scrolling-active a {
   color: #ffffff;
 }
@@ -12073,10 +12059,6 @@ body {
 #hero {
   padding-top: 100px;
   padding-bottom: 250px;
-}
-
-.heroContainer {
-  justify-content: space-between;
 }
 
 .colorGradName {
@@ -12203,27 +12185,27 @@ body {
 }
 
 .proj1 {
-  background-image: url("/dist/img/Projects/realtimecolors.png");
+  background-image: url("/img/Projects/realtimecolors.png");
 }
 
 .proj2 {
-  background-image: url("/dist/img/Projects/bootstrap.png");
+  background-image: url("/img/Projects/bootstrap.png");
 }
 
 .proj3 {
-  background-image: url("/dist/img/Projects/freeboots.png");
+  background-image: url("/img/Projects/freeboots.png");
 }
 
 .proj4 {
-  background-image: url("/dist/img/Projects/w3sch.png");
+  background-image: url("/img/Projects/w3sch.png");
 }
 
 .proj5 {
-  background-image: url("/dist/img/Projects/realtimecolors.png");
+  background-image: url("/img/Projects/realtimecolors.png");
 }
 
 .proj6 {
-  background-image: url("/dist/img/Projects/bootstrap.png");
+  background-image: url("/img/Projects/bootstrap.png");
 }
 
 .rrss {
@@ -12245,7 +12227,7 @@ body {
 }
 
 footer li {
-  margin-right: 25px;
+  margin-right: 40px;
 }
 
 .rss {
