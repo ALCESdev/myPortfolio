@@ -1,4 +1,4 @@
-$font-family-sans-serif: 'Inter', sans-serif;
+$font-family-sans-serif: "Inter", sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -6,349 +6,349 @@ $prim: #151603;
 $sec: #fdfef6;
 $btn1: #1dbfcd;
 $btn2: #ffffff;
-$acc: #cd1dbf;
+$acc: #b627aa;
 $grad: linear-gradient(120deg, $btn1, $acc);
-
 
 /*********** Navbar ***********/
 #nav_glass.scrolling-active a {
-    color:#ffffff;
+  color: #ffffff;
 }
 
 .colorGrad {
-    background: $grad;
-    background-clip: text;
-    font-weight: 700;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: $grad;
+  background-clip: text;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: $acc;
-    text-decoration: overline;
-    font-weight: bold;
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: $acc;
+  text-decoration: overline;
+  font-weight: bold;
 }
 
 .nav-link {
-    line-height: 1.5rem;
-    color: $prim;
-    transition: transform 0.5s ease;
-    font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: $prim;
+  transition: transform 0.5s ease;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
 }
 
 .nav-link:hover {
-    color: $acc;
-    transform: translateY(-5px);
+  color: $acc;
+  transform: translateY(-5px);
 }
 
 /*********** Hero ***********/
 #hero {
-    padding-top: 100px;
-    padding-bottom: 250px;
+  padding-top: 100px;
+  padding-bottom: 250px;
 }
 
 .colorGradName {
-    background: $grad;
-    background-clip: text;
-    font-weight: 700;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: $grad;
+  background-clip: text;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .certContainer {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
 
 .infoContainer {
-   padding-left: 0;
+  padding-left: 0;
 }
 
 .imgContainer {
-    display: flex;
-    justify-content:end;
-    padding-right: 0;
+  display: flex;
+  justify-content: end;
+  padding-right: 0;
 }
 
 .zoomImg {
-    transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .zoomImg:hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .lead {
-    text-align: justify;
+  text-align: justify;
 }
 
 .highlights {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 
 /*********** Tecnologías ***********/
 #techs {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .container_tech {
-    padding: 50px;
-    height: 550px;
-    max-height: 700px;
-    margin-bottom: 120px;
+  padding: 50px;
+  height: 550px;
+  max-height: 700px;
+  margin-bottom: 120px;
 }
 
 .tech_title {
-    text-align: end;
-    
-    .gradient-underline {
+  text-align: end;
+
+  .gradient-underline {
     background-image: linear-gradient(to right, $btn1, $acc);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100% 1px;
     padding-bottom: 10px;
-    }
+  }
 }
 
 .title2 {
-text-align: start;
+  text-align: start;
 }
 
 .tech_icons {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .frontTech {
-    fill: #7c7c7c;
+  fill: #7c7c7c;
 }
 
-.backTech, .frontTech {
-    filter: grayscale(100);
+.backTech,
+.frontTech {
+  filter: grayscale(100);
 }
 
-.backTech:hover, .frontTech:hover{
-    filter: none;
+.backTech:hover,
+.frontTech:hover {
+  filter: none;
 }
-
 
 /*********** Proyectos ***********/
 #projects {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .projectsInfo {
-    padding-left: 12px;
-    margin: 0;
-    padding-bottom: 8px;
+  padding-left: 12px;
+  margin: 0;
+  padding-bottom: 8px;
 }
 
 .topGrad {
-    background-image: linear-gradient(to right, $btn1, $acc);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
-    padding-top: 30px;
+  background-image: linear-gradient(to right, $btn1, $acc);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  padding-top: 30px;
 }
 
 #cards {
-    background: $prim;
+  background: $prim;
 }
 
 .projectImg {
-    display: inline-block;
-    height: 280px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-    object-fit:cover;
-    margin-bottom: 20px;
+  display: inline-block;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .proj1 {
-    background-image: url('/img/Projects/realtimecolors.png');
+  background-image: url("/img/Projects/realtimecolors.png");
 }
 
 .proj2 {
-    background-image: url('/img/Projects/bootstrap.png');
+  background-image: url("/img/Projects/bootstrap.png");
 }
 
 .proj3 {
-    background-image: url('/img/Projects/freeboots.png');
+  background-image: url("/img/Projects/freeboots.png");
 }
 
 .proj4 {
-    background-image: url('/img/Projects/w3sch.png');
-}   
+  background-image: url("/img/Projects/w3sch.png");
+}
 
 .proj5 {
-    background-image: url('/img/Projects/realtimecolors.png');
+  background-image: url("/img/Projects/realtimecolors.png");
 }
 
 .proj6 {
-    background-image: url('/img/Projects/bootstrap.png');
+  background-image: url("/img/Projects/bootstrap.png");
 }
 
 .rrss {
-    fill: $sec;
+  fill: $sec;
 }
-
 
 /*********** Contacto ***********/
 #contact {
-    padding-top: 430px;
-    padding-bottom: 500px;
+  padding-top: 430px;
+  padding-bottom: 500px;
 }
 
 .contactInfo {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .contactIcons {
-    flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
-footer li{
-    margin-right: 40px;
+footer li {
+  margin-right: 40px;
 }
 
 .rss {
-    fill: $prim;
+  fill: $prim;
 }
 
 .rssMail:hover {
-    fill: #BB001B;
+  fill: #bb001b;
 }
 
 .rssLink:hover {
-    fill: #0072b1;
+  fill: #0072b1;
 }
 
 .rssGit:hover {
-    fill: #ef5033;
+  fill: #ef5033;
 }
-
 
 /*********** Responsive ***********/
 
 // Small devices (landscape phones, 576px)
 @media screen and (max-width: 576px) {
-    .tech_icons {
-        padding: 30px;
-    }
+  .tech_icons {
+    padding: 30px;
+  }
 
-    .frontTech {
-        box-sizing: border-box;
-    }
+  .frontTech {
+    box-sizing: border-box;
+  }
 
-    .backTech {
-        box-sizing: border-box;
-    }
+  .backTech {
+    box-sizing: border-box;
+  }
 
-    #contact {
-        padding: 30px;
-    }
+  #contact {
+    padding: 30px;
+  }
 }
 
 // Medium devices (tablets, 768px)
 @media screen and (max-width: 767px) {
-    #hero {
-        padding-top: 20px;
-        margin-top: 170px;
-    }
+  #hero {
+    padding-top: 20px;
+    margin-top: 170px;
+  }
 
-    .navbar-brand {
-        display: none;
-    }
+  .navbar-brand {
+    display: none;
+  }
 
-    .colorGrad {
-        display: none;
-    }   
+  .colorGrad {
+    display: none;
+  }
 
-    .heroContainer {
-        display: flex;
-        justify-content: center;
-        padding: 15px;
-    }
+  .heroContainer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
 
-    .infoContainer {
-        padding-left: 30px;
-    }
+  .infoContainer {
+    padding-left: 30px;
+  }
 
-    .container_tech {
-        padding: 30px;
-        height: auto;
-        margin-bottom: 120px;
-    }
+  .container_tech {
+    padding: 30px;
+    height: auto;
+    margin-bottom: 120px;
+  }
 
-    #techs {
-        padding-top: 30px;
-    }
+  #techs {
+    padding-top: 30px;
+  }
 
-    .tech_icons {
-        padding: 30px;
-    }
+  .tech_icons {
+    padding: 30px;
+  }
 
-    .frontTech {
-        height: 60px;
-        filter: none;
-        box-sizing: border-box;
-    }
-    
-    .backTech {
-        height: 60px;
-        filter: none;
-        box-sizing: border-box;
-    }
+  .frontTech {
+    height: 60px;
+    filter: none;
+    box-sizing: border-box;
+  }
 
-    .projectImg {
-        background-position: center;
-    }
+  .backTech {
+    height: 60px;
+    filter: none;
+    box-sizing: border-box;
+  }
+
+  .projectImg {
+    background-position: center;
+  }
 }
 
 // Large devices (desktops, 992px)
 @media screen and (max-width: 991px) {
-    #hero {
-        padding-top: 0;
-    }
+  #hero {
+    padding-top: 0;
+  }
 
-    .heroContainer {
-        display: flex;
-        justify-content: center;
-        padding: 15px;
-    }
+  .heroContainer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
 
-    .infoContainer {
-        padding-left: 30px;
-    }
+  .infoContainer {
+    padding-left: 30px;
+  }
 
-    .frontTech, .backTech {
-        height: 80px;
-    }
+  .frontTech,
+  .backTech {
+    height: 80px;
+  }
 
-    .container_tech {
-        padding: 30px;
-        height: auto;
-        margin-bottom: 120px;
-    }
+  .container_tech {
+    padding: 30px;
+    height: auto;
+    margin-bottom: 120px;
+  }
 
-    #contact {
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
+  #contact {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 
-    .contactInfo {
-        margin-bottom: 50px;
-    }
+  .contactInfo {
+    margin-bottom: 50px;
+  }
 
-    .tech_icons {
-        padding: 30px;
-    }
+  .tech_icons {
+    padding: 30px;
+  }
 }

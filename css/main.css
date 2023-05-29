@@ -12030,15 +12030,16 @@ textarea.form-control-lg {
 }
 
 .colorGrad {
-  background: linear-gradient(120deg, #1dbfcd, #cd1dbf);
+  background: linear-gradient(120deg, #1dbfcd, #b627aa);
   background-clip: text;
   font-weight: 700;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: #cd1dbf;
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #b627aa;
   text-decoration: overline;
   font-weight: bold;
 }
@@ -12047,11 +12048,12 @@ textarea.form-control-lg {
   line-height: 1.5rem;
   color: #151603;
   transition: transform 0.5s ease;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
 }
 
 .nav-link:hover {
-  color: #cd1dbf;
+  color: #b627aa;
   transform: translateY(-5px);
 }
 
@@ -12062,7 +12064,7 @@ textarea.form-control-lg {
 }
 
 .colorGradName {
-  background: linear-gradient(120deg, #1dbfcd, #cd1dbf);
+  background: linear-gradient(120deg, #1dbfcd, #b627aa);
   background-clip: text;
   font-weight: 700;
   -webkit-background-clip: text;
@@ -12118,7 +12120,7 @@ textarea.form-control-lg {
   text-align: end;
 }
 .tech_title .gradient-underline {
-  background-image: linear-gradient(to right, #1dbfcd, #cd1dbf);
+  background-image: linear-gradient(to right, #1dbfcd, #b627aa);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100% 1px;
@@ -12142,11 +12144,13 @@ textarea.form-control-lg {
   fill: #7c7c7c;
 }
 
-.backTech, .frontTech {
+.backTech,
+.frontTech {
   filter: grayscale(100);
 }
 
-.backTech:hover, .frontTech:hover {
+.backTech:hover,
+.frontTech:hover {
   filter: none;
 }
 
@@ -12162,7 +12166,7 @@ textarea.form-control-lg {
 }
 
 .topGrad {
-  background-image: linear-gradient(to right, #1dbfcd, #cd1dbf);
+  background-image: linear-gradient(to right, #1dbfcd, #b627aa);
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 1px;
@@ -12235,7 +12239,7 @@ footer li {
 }
 
 .rssMail:hover {
-  fill: #BB001B;
+  fill: #bb001b;
 }
 
 .rssLink:hover {
@@ -12317,7 +12321,8 @@ footer li {
   .infoContainer {
     padding-left: 30px;
   }
-  .frontTech, .backTech {
+  .frontTech,
+  .backTech {
     height: 80px;
   }
   .container_tech {
