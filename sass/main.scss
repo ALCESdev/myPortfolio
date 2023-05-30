@@ -42,6 +42,23 @@ $grad: linear-gradient(120deg, $btn1, $acc);
   transform: translateY(-5px);
 }
 
+.navSocialLinks {
+  fill: $prim;
+}
+
+.socialLinked:hover {
+  fill: #0072b1;
+}
+
+.socialGit:hover {
+  fill: #ef5033;
+}
+
+.socialMail:hover {
+  fill: #bb001b;
+}
+
+
 /*********** Hero ***********/
 #hero {
   padding-top: 100px;
@@ -174,7 +191,7 @@ $grad: linear-gradient(120deg, $btn1, $acc);
 }
 
 .proj1 {
-  background-image: url("/img/Projects/realtimecolors.png");
+  background-image: url("/img/Projects/medicALCES.png");
 }
 
 .proj2 {
@@ -314,6 +331,14 @@ footer li {
 
 // Large devices (desktops, 992px)
 @media screen and (max-width: 991px) {
+  .nav-link {
+    line-height: 1.5rem;
+    color: $prim;
+    transition: transform 0.5s ease;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+
   #hero {
     padding-top: 0;
   }
@@ -322,6 +347,13 @@ footer li {
     display: flex;
     justify-content: center;
     padding: 15px;
+  }
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto 30px auto;
   }
 
   .infoContainer {
