@@ -12030,7 +12030,7 @@ textarea.form-control-lg {
 }
 
 .colorGrad {
-  background: linear-gradient(120deg, #1dbfcd, #b627aa);
+  background: linear-gradient(100deg, #1dbfcd, #9349B1);
   background-clip: text;
   font-weight: 700;
   -webkit-background-clip: text;
@@ -12039,7 +12039,7 @@ textarea.form-control-lg {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: #b627aa;
+  color: #9349B1;
   text-decoration: overline;
   font-weight: bold;
 }
@@ -12053,7 +12053,7 @@ textarea.form-control-lg {
 }
 
 .nav-link:hover {
-  color: #b627aa;
+  color: #9349B1;
   transform: translateY(-5px);
 }
 
@@ -12080,7 +12080,7 @@ textarea.form-control-lg {
 }
 
 .colorGradName {
-  background: linear-gradient(120deg, #1dbfcd, #b627aa);
+  background: linear-gradient(100deg, #1dbfcd, #9349B1);
   background-clip: text;
   font-weight: 700;
   -webkit-background-clip: text;
@@ -12127,16 +12127,15 @@ textarea.form-control-lg {
 
 .container_tech {
   padding: 50px;
-  height: 550px;
-  max-height: 700px;
-  margin-bottom: 120px;
+  height: 400px;
+  margin-bottom: 100px;
 }
 
 .tech_title {
   text-align: end;
 }
 .tech_title .gradient-underline {
-  background-image: linear-gradient(to right, #1dbfcd, #b627aa);
+  background-image: linear-gradient(to right, #1dbfcd, #9349B1);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100% 1px;
@@ -12156,20 +12155,6 @@ textarea.form-control-lg {
   gap: 40px;
 }
 
-.frontTech {
-  fill: #7c7c7c;
-}
-
-.backTech,
-.frontTech {
-  filter: grayscale(100);
-}
-
-.backTech:hover,
-.frontTech:hover {
-  filter: none;
-}
-
 /*********** Proyectos ***********/
 #projects {
   padding-top: 150px;
@@ -12182,11 +12167,10 @@ textarea.form-control-lg {
 }
 
 .topGrad {
-  background-image: linear-gradient(to right, #1dbfcd, #b627aa);
+  background-image: linear-gradient(to right, #1dbfcd, #9349B1);
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 1px;
-  padding-top: 30px;
 }
 
 #cards {
@@ -12287,6 +12271,9 @@ footer li {
     margin-top: 170px;
   }
   .navbar-brand {
+    display: none;
+  }
+  .socialLogos {
     display: none;
   }
   .colorGrad {

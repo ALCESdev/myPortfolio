@@ -6,8 +6,8 @@ $prim: #151603;
 $sec: #fdfef6;
 $btn1: #1dbfcd;
 $btn2: #ffffff;
-$acc: #b627aa;
-$grad: linear-gradient(120deg, $btn1, $acc);
+$acc: #9349B1;
+$grad: linear-gradient(100deg, $btn1, $acc);
 
 /*********** Navbar ***********/
 #nav_glass.scrolling-active a {
@@ -113,9 +113,8 @@ $grad: linear-gradient(120deg, $btn1, $acc);
 
 .container_tech {
   padding: 50px;
-  height: 550px;
-  max-height: 700px;
-  margin-bottom: 120px;
+  height: 400px;
+  margin-bottom: 100px;
 }
 
 .tech_title {
@@ -143,19 +142,6 @@ $grad: linear-gradient(120deg, $btn1, $acc);
   gap: 40px;
 }
 
-.frontTech {
-  fill: #7c7c7c;
-}
-
-.backTech,
-.frontTech {
-  filter: grayscale(100);
-}
-
-.backTech:hover,
-.frontTech:hover {
-  filter: none;
-}
 
 /*********** Proyectos ***********/
 #projects {
@@ -173,7 +159,6 @@ $grad: linear-gradient(120deg, $btn1, $acc);
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 1px;
-  padding-top: 30px;
 }
 
 #cards {
@@ -281,6 +266,10 @@ footer li {
   }
 
   .navbar-brand {
+    display: none;
+  }
+
+  .socialLogos {
     display: none;
   }
 
