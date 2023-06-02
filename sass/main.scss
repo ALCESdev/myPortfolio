@@ -9,15 +9,16 @@ $btn2: #ffffff;
 $acc: #9349B1;
 $grad: linear-gradient(100deg, $btn1, $acc);
 
+
 /*********** Navbar ***********/
-#nav_glass.scrolling-active a {
+#nav-glass.scrolling-active a {
   color: #ffffff;
 }
 
-.colorGrad {
+.color-grad {
   background: $grad;
   background-clip: text;
-  font-weight: 700;
+  font-weight: 900;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -42,7 +43,7 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   transform: translateY(-5px);
 }
 
-.navSocialLinks {
+.nav-social-links {
   fill: $prim;
 }
 
@@ -65,7 +66,7 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   padding-bottom: 250px;
 }
 
-.colorGradName {
+.color-grad-name {
   background: $grad;
   background-clip: text;
   font-weight: 700;
@@ -73,28 +74,28 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   -webkit-text-fill-color: transparent;
 }
 
-.certContainer {
+.hero-cert-container {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   gap: 25px;
 }
 
-.infoContainer {
+.hero-info-container {
   padding-left: 0;
 }
 
-.imgContainer {
+.hero-img-container {
   display: flex;
   justify-content: end;
   padding-right: 0;
 }
 
-.zoomImg {
+.zoom-img {
   transition: transform 0.3s ease;
 }
 
-.zoomImg:hover {
+.zoom-img:hover {
   transform: scale(1.3);
 }
 
@@ -111,13 +112,13 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   padding-top: 150px;
 }
 
-.container_tech {
+.tech-container {
   padding: 50px;
   height: 400px;
   margin-bottom: 100px;
 }
 
-.tech_title {
+.tech-title {
   text-align: end;
 
   .gradient-underline {
@@ -129,11 +130,11 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   }
 }
 
-.title2 {
+.title-2 {
   text-align: start;
 }
 
-.tech_icons {
+.tech-icons {
   height: 100%;
   width: 100%;
   display: flex;
@@ -148,13 +149,12 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   padding-top: 150px;
 }
 
-.projectsInfo {
-  padding-left: 12px;
+.projects-info {
   margin: 0;
   padding-bottom: 8px;
 }
 
-.topGrad {
+.top-grad {
   background-image: linear-gradient(to right, $btn1, $acc);
   background-position: top;
   background-repeat: no-repeat;
@@ -165,7 +165,7 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   background: $prim;
 }
 
-.projectImg {
+.project-img {
   display: inline-block;
   height: 280px;
   background-repeat: no-repeat;
@@ -175,19 +175,19 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   margin-bottom: 20px;
 }
 
-.proj1 {
+.proj-1 {
   background-image: url("/img/Projects/gestionALCESdev.png");
 }
 
-.proj2 {
+.proj-2 {
   background-image: url("/img/Projects/medicALCES.png");
 }
 
-.proj3 {
+.proj-3 {
   background-image: url("/img/Projects/gestionALCESdev.png");
 }
 
-.proj4 {
+.proj-4 {
   background-image: url("/img/Projects/medicALCES.png");
 }
 
@@ -201,11 +201,11 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   padding-bottom: 500px;
 }
 
-.contactInfo {
+.contact-info {
   margin-bottom: 100px;
 }
 
-.contactIcons {
+.contact-icons {
   flex-wrap: nowrap;
 }
 
@@ -233,15 +233,15 @@ footer li {
 
 // Small devices (landscape phones, 576px)
 @media screen and (max-width: 576px) {
-  .tech_icons {
+  .tech-icons {
     padding: 30px;
   }
 
-  .frontTech {
+  .front-tech {
     box-sizing: border-box;
   }
 
-  .backTech {
+  .back-tech {
     box-sizing: border-box;
   }
 
@@ -261,25 +261,21 @@ footer li {
     display: none;
   }
 
-  .socialLogos {
+  .social-logos {
     display: none;
   }
 
-  .colorGrad {
-    display: none;
-  }
-
-  .heroContainer {
+  .hero-container {
     display: flex;
     justify-content: center;
     padding: 15px;
   }
 
-  .infoContainer {
+  .info-container {
     padding-left: 30px;
   }
 
-  .container_tech {
+  .tech-container {
     padding: 30px;
     height: auto;
     margin-bottom: 120px;
@@ -289,23 +285,23 @@ footer li {
     padding-top: 30px;
   }
 
-  .tech_icons {
+  .tech-icons {
     padding: 30px;
   }
 
-  .frontTech {
+  .front-tech {
     height: 60px;
     filter: none;
     box-sizing: border-box;
   }
 
-  .backTech {
+  .back-tech {
     height: 60px;
     filter: none;
     box-sizing: border-box;
   }
 
-  .projectImg {
+  .project-img {
     background-position: center;
   }
 }
@@ -324,29 +320,29 @@ footer li {
     padding-top: 0;
   }
 
-  .heroContainer {
+  .hero-container {
     display: flex;
     justify-content: center;
     padding: 15px;
   }
 
-  .imgContainer {
+  .hero-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin:50px auto 30px auto;
   }
 
-  .infoContainer {
+  .hero-info-container {
     padding-left: 30px;
   }
 
-  .frontTech,
-  .backTech {
+  .front-tech,
+  .back-tech {
     height: 80px;
   }
 
-  .container_tech {
+  .tech-container {
     padding: 30px;
     height: auto;
     margin-bottom: 120px;
@@ -357,11 +353,11 @@ footer li {
     padding-bottom: 200px;
   }
 
-  .contactInfo {
+  .contact-info {
     margin-bottom: 50px;
   }
 
-  .tech_icons {
+  .tech-icons {
     padding: 30px;
   }
 }

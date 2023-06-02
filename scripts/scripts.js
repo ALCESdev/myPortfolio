@@ -1,5 +1,5 @@
 const navLinks = document.querySelectorAll(".nav-link");
-const navSocialLinks = document.querySelectorAll(".navSocialLinks");
+const navSocialLinks = document.querySelectorAll(".nav-social-links");
 const sections = document.querySelectorAll("section");
 
 const firstSection = sections[0];
@@ -10,7 +10,7 @@ function handleScroll() {
   const top = firstSection.offsetTop;
 
   if (currentPos === top) {
-    var navbar = document.getElementById("nav_glass");
+    var navbar = document.getElementById("nav-glass");
     navbar.style.backgroundColor = "";
     navbar.style.backdropFilter = "";
     navSocialLinks.forEach((svg) => {
@@ -25,7 +25,7 @@ function handleScroll() {
       if (currentPos >= sectionTop && currentPos < sectionTop + sectionHeight) {
         activeLinkIndex = index;
 
-        var navbar = document.getElementById("nav_glass");
+        var navbar = document.getElementById("nav-glass");
         navbar.style.backgroundColor = "rgba(34, 34, 34, 0.8)";
         navbar.style.backdropFilter = "blur(5px)";
         navSocialLinks.forEach((svg) => {

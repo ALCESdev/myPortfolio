@@ -12025,20 +12025,21 @@ textarea.form-control-lg {
   }
 }
 /*********** Navbar ***********/
-#nav_glass.scrolling-active a {
+#nav-glass.scrolling-active a {
   color: #ffffff;
 }
 
-.colorGrad {
-  background: linear-gradient(120deg, #1dbfcd, #cd1dbf);
+.color-grad {
+  background: linear-gradient(100deg, #1dbfcd, #9349B1);
   background-clip: text;
-  font-weight: 700;
+  font-weight: 900;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: #cd1dbf;
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #9349B1;
   text-decoration: overline;
   font-weight: bold;
 }
@@ -12047,12 +12048,29 @@ textarea.form-control-lg {
   line-height: 1.5rem;
   color: #151603;
   transition: transform 0.5s ease;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
 }
 
 .nav-link:hover {
-  color: #cd1dbf;
+  color: #9349B1;
   transform: translateY(-5px);
+}
+
+.nav-social-links {
+  fill: #151603;
+}
+
+.socialLinked:hover {
+  fill: #0072b1;
+}
+
+.socialGit:hover {
+  fill: #ef5033;
+}
+
+.socialMail:hover {
+  fill: #bb001b;
 }
 
 /*********** Hero ***********/
@@ -12061,36 +12079,36 @@ textarea.form-control-lg {
   padding-bottom: 250px;
 }
 
-.colorGradName {
-  background: linear-gradient(120deg, #1dbfcd, #cd1dbf);
+.color-grad-name {
+  background: linear-gradient(100deg, #1dbfcd, #9349B1);
   background-clip: text;
   font-weight: 700;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.certContainer {
+.hero-cert-container {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   gap: 25px;
 }
 
-.infoContainer {
+.hero-info-container {
   padding-left: 0;
 }
 
-.imgContainer {
+.hero-img-container {
   display: flex;
   justify-content: end;
   padding-right: 0;
 }
 
-.zoomImg {
+.zoom-img {
   transition: transform 0.3s ease;
 }
 
-.zoomImg:hover {
+.zoom-img:hover {
   transform: scale(1.3);
 }
 
@@ -12107,29 +12125,28 @@ textarea.form-control-lg {
   padding-top: 150px;
 }
 
-.container_tech {
+.tech-container {
   padding: 50px;
-  height: 550px;
-  max-height: 700px;
-  margin-bottom: 120px;
+  height: 400px;
+  margin-bottom: 100px;
 }
 
-.tech_title {
+.tech-title {
   text-align: end;
 }
-.tech_title .gradient-underline {
-  background-image: linear-gradient(to right, #1dbfcd, #cd1dbf);
+.tech-title .gradient-underline {
+  background-image: linear-gradient(to right, #1dbfcd, #9349B1);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100% 1px;
   padding-bottom: 10px;
 }
 
-.title2 {
+.title-2 {
   text-align: start;
 }
 
-.tech_icons {
+.tech-icons {
   height: 100%;
   width: 100%;
   display: flex;
@@ -12138,42 +12155,28 @@ textarea.form-control-lg {
   gap: 40px;
 }
 
-.frontTech {
-  fill: #7c7c7c;
-}
-
-.backTech, .frontTech {
-  filter: grayscale(100);
-}
-
-.backTech:hover, .frontTech:hover {
-  filter: none;
-}
-
 /*********** Proyectos ***********/
 #projects {
   padding-top: 150px;
 }
 
-.projectsInfo {
-  padding-left: 12px;
+.projects-info {
   margin: 0;
   padding-bottom: 8px;
 }
 
-.topGrad {
-  background-image: linear-gradient(to right, #1dbfcd, #cd1dbf);
+.top-grad {
+  background-image: linear-gradient(to right, #1dbfcd, #9349B1);
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 1px;
-  padding-top: 30px;
 }
 
 #cards {
   background: #151603;
 }
 
-.projectImg {
+.project-img {
   display: inline-block;
   height: 280px;
   background-repeat: no-repeat;
@@ -12184,28 +12187,20 @@ textarea.form-control-lg {
   margin-bottom: 20px;
 }
 
-.proj1 {
-  background-image: url("/img/Projects/realtimecolors.png");
+.proj-1 {
+  background-image: url("/img/Projects/gestionALCESdev.png");
 }
 
-.proj2 {
-  background-image: url("/img/Projects/bootstrap.png");
+.proj-2 {
+  background-image: url("/img/Projects/medicALCES.png");
 }
 
-.proj3 {
-  background-image: url("/img/Projects/freeboots.png");
+.proj-3 {
+  background-image: url("/img/Projects/gestionALCESdev.png");
 }
 
-.proj4 {
-  background-image: url("/img/Projects/w3sch.png");
-}
-
-.proj5 {
-  background-image: url("/img/Projects/realtimecolors.png");
-}
-
-.proj6 {
-  background-image: url("/img/Projects/bootstrap.png");
+.proj-4 {
+  background-image: url("/img/Projects/medicALCES.png");
 }
 
 .rrss {
@@ -12218,16 +12213,16 @@ textarea.form-control-lg {
   padding-bottom: 500px;
 }
 
-.contactInfo {
+.contact-info {
   margin-bottom: 100px;
 }
 
-.contactIcons {
+.contact-icons {
   flex-wrap: nowrap;
 }
 
 footer li {
-  margin-right: 25px;
+  margin-right: 40px;
 }
 
 .rss {
@@ -12235,7 +12230,7 @@ footer li {
 }
 
 .rssMail:hover {
-  fill: #BB001B;
+  fill: #bb001b;
 }
 
 .rssLink:hover {
@@ -12248,13 +12243,13 @@ footer li {
 
 /*********** Responsive ***********/
 @media screen and (max-width: 576px) {
-  .tech_icons {
+  .tech-icons {
     padding: 30px;
   }
-  .frontTech {
+  .front-tech {
     box-sizing: border-box;
   }
-  .backTech {
+  .back-tech {
     box-sizing: border-box;
   }
   #contact {
@@ -12269,18 +12264,18 @@ footer li {
   .navbar-brand {
     display: none;
   }
-  .colorGrad {
+  .social-logos {
     display: none;
   }
-  .heroContainer {
+  .hero-container {
     display: flex;
     justify-content: center;
     padding: 15px;
   }
-  .infoContainer {
+  .info-container {
     padding-left: 30px;
   }
-  .container_tech {
+  .tech-container {
     padding: 30px;
     height: auto;
     margin-bottom: 120px;
@@ -12288,39 +12283,53 @@ footer li {
   #techs {
     padding-top: 30px;
   }
-  .tech_icons {
+  .tech-icons {
     padding: 30px;
   }
-  .frontTech {
+  .front-tech {
     height: 60px;
     filter: none;
     box-sizing: border-box;
   }
-  .backTech {
+  .back-tech {
     height: 60px;
     filter: none;
     box-sizing: border-box;
   }
-  .projectImg {
+  .project-img {
     background-position: center;
   }
 }
 @media screen and (max-width: 991px) {
+  .nav-link {
+    line-height: 1.5rem;
+    color: #151603;
+    transition: transform 0.5s ease;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
   #hero {
     padding-top: 0;
   }
-  .heroContainer {
+  .hero-container {
     display: flex;
     justify-content: center;
     padding: 15px;
   }
-  .infoContainer {
+  .hero-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 30px auto;
+  }
+  .hero-info-container {
     padding-left: 30px;
   }
-  .frontTech, .backTech {
+  .front-tech,
+  .back-tech {
     height: 80px;
   }
-  .container_tech {
+  .tech-container {
     padding: 30px;
     height: auto;
     margin-bottom: 120px;
@@ -12329,10 +12338,10 @@ footer li {
     padding-top: 200px;
     padding-bottom: 200px;
   }
-  .contactInfo {
+  .contact-info {
     margin-bottom: 50px;
   }
-  .tech_icons {
+  .tech-icons {
     padding: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
