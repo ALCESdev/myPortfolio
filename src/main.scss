@@ -1,6 +1,6 @@
 $font-family-sans-serif: "Inter", sans-serif;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 $prim: #151603;
 $sec: #fdfef6;
@@ -11,8 +11,23 @@ $grad: linear-gradient(100deg, $btn1, $acc);
 
 
 /*********** Navbar ***********/
+#nav-glass {
+  transition: background-color 0.3s ease;
+  color: $prim;
+}
+
+#nav-glass.scrolling-active {
+  background-color: rgba(34, 34, 34, 0.8);
+  backdrop-filter: blur(5px);
+  color: #ffffff !important;
+}
+
 #nav-glass.scrolling-active a {
   color: #ffffff;
+}
+
+#nav-glass.scrolling-active svg {
+  fill: #ffffff;
 }
 
 .color-grad {
@@ -25,7 +40,7 @@ $grad: linear-gradient(100deg, $btn1, $acc);
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: $acc;
+  color: $acc !important;
   text-decoration: overline;
   font-weight: bold;
 }
@@ -39,7 +54,7 @@ $grad: linear-gradient(100deg, $btn1, $acc);
 }
 
 .nav-link:hover {
-  color: $acc;
+  color: $acc !important;
   transform: translateY(-5px);
 }
 
@@ -48,15 +63,15 @@ $grad: linear-gradient(100deg, $btn1, $acc);
 }
 
 .socialLinked:hover {
-  fill: #0072b1;
+  fill: #0072b1 !important;
 }
 
 .socialGit:hover {
-  fill: #ef5033;
+  fill: #ef5033 !important;
 }
 
 .socialMail:hover {
-  fill: #bb001b;
+  fill: #bb001b !important;
 }
 
 
@@ -161,34 +176,14 @@ $grad: linear-gradient(100deg, $btn1, $acc);
   background-size: 100% 1px;
 }
 
-#cards {
+.cards {
   background: $prim;
 }
 
 .project-img {
-  display: inline-block;
   height: 280px;
-  background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 5px;
-  object-fit: cover;
   margin-bottom: 20px;
-}
-
-.proj-1 {
-  background-image: url("/img/Projects/gestionALCESdev.png");
-}
-
-.proj-2 {
-  background-image: url("/img/Projects/medicALCES.png");
-}
-
-.proj-3 {
-  background-image: url("/img/Projects/gestionALCESdev.png");
-}
-
-.proj-4 {
-  background-image: url("/img/Projects/medicALCES.png");
 }
 
 .rrss {
@@ -247,6 +242,10 @@ footer li {
 
   #contact {
     padding: 30px;
+  }
+
+  .card-image {
+    object-fit: cover;
   }
 }
 
