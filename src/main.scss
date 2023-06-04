@@ -260,6 +260,10 @@ footer li {
     display: none;
   }
 
+  .nav-logo-text {
+    display: none;
+  }
+
   .social-logos {
     display: none;
   }
@@ -300,8 +304,8 @@ footer li {
     box-sizing: border-box;
   }
 
-  .project-img {
-    background-position: center;
+  .card-img {
+    object-fit: cover;
   }
 }
 
