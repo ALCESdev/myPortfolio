@@ -1,7 +1,8 @@
 const CLASSNAMES = {
   ACTIVE: 'active',
   SCROLLING_ACTIVE: 'scrolling-active',
-  NAV_LINK: 'nav-link'
+  NAV_LINK: 'nav-link',
+  NAV_BRAND: 'navbar-brand'
 }
 
 const IDS = {
@@ -9,10 +10,12 @@ const IDS = {
 }
 
 const navLinksElements = document.getElementsByClassName(CLASSNAMES.NAV_LINK)
+const navBrand = document.getElementsByClassName(CLASSNAMES.NAV_BRAND)
 const sectionsElements = document.getElementsByTagName('section')
 
 const navbar = document.getElementById(IDS.NAV_GLASS)
 const navLinks = Array.from(navLinksElements)
+navLinks.push(navBrand[0])
 const sections = Array.from(sectionsElements)
 
 const firstSection = sections[0]
@@ -57,6 +60,7 @@ const handleNavLinkClick = (event) => {
     block: 'start'
   })
 }
+
 
 navLinks.forEach(navLink => navLink.addEventListener('click', handleNavLinkClick))
 window.addEventListener('scroll', handleScroll)
